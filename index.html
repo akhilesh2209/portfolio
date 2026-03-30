@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wuna Akhilesh — Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="noise"></div>
+
+  <!-- CURSOR TOGGLE -->
+  <button class="cursor-toggle" id="cursorToggle" title="Toggle custom cursor">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 3l14 9-7 1-3 7z"/></svg>
+    <span>Cursor</span>
+  </button>
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="nav-inner">
+      <a href="#" class="logo"><span class="logo-bracket">[</span>WA<span class="logo-bracket">]</span></a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a href="WUNA_AKHILESH_RESUME.pdf" download class="btn-resume">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Resume
+        </a>
+        <a href="#contact" class="nav-cta">Hire Me ↗</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="grid-lines"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <span class="dot-pulse"></span>
+        Open to full-time roles &amp; opportunities
+      </div>
+      <h1 class="hero-name">
+        <span class="line-reveal">Wuna</span>
+        <span class="line-reveal delay-1">Akhilesh</span>
+      </h1>
+      <div class="hero-title-wrap">
+        <p class="hero-subtitle">Full Stack Developer</p>
+        <span class="hero-divider">/</span>
+        <p class="hero-subtitle">Cloud Engineer</p>
+      </div>
+      <p class="hero-desc">
+        React · Node.js · AWS · MongoDB<br>
+        Building production-grade systems with real, measurable impact.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">
+          <span>View My Work</span>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+        </a>
+        <a href="WUNA_AKHILESH_RESUME.pdf" download class="btn-ghost">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download Resume
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-row"><span class="stat-num" data-count="35">0</span><span class="stat-unit">%</span></div>
+          <span class="stat-label">AWS Efficiency Gain</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <div class="stat-row"><span class="stat-num" data-count="1000">0</span><span class="stat-unit">+</span></div>
+          <span class="stat-label">Images Processed</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <div class="stat-row"><span class="stat-num" data-count="60">0</span><span class="stat-unit">%</span></div>
+          <span class="stat-label">Monitoring Reduced</span>
+        </div>
+        <div class="stat-sep"></div>
+        <div class="stat">
+          <div class="stat-row"><span class="stat-num" data-count="88">0</span><span class="stat-unit">/100</span></div>
+          <span class="stat-label">CGPA Score</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-tag reveal">About</div>
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <h2 class="section-heading">Building scalable<br>apps with <em>real</em><br>measurable impact.</h2>
+        </div>
+        <div class="about-right reveal delay-2">
+          <p class="about-text">
+            I'm a Computer Science graduate (B.Tech, CGPA 8.8/10) from Anil Neerukonda Institute of Technology and Sciences, specialising in full-stack development and cloud engineering.
+          </p>
+          <p class="about-text">
+            I've shipped systems that work at scale — an AWS Rekognition pipeline that processed 1,000+ images with 35% better efficiency, a Lambda alert system that cut monitoring effort by 60%, and a phishing extension with 30% accuracy improvement. Every project ships with measurable results.
+          </p>
+          <div class="about-links">
+            <a href="https://www.linkedin.com/in/wuna-akhilesh-03349230a/" target="_blank" class="about-link">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              linkedin.com/in/wuna-akhilesh
+            </a>
+            <a href="https://github.com/akhilesh2209" target="_blank" class="about-link">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              github.com/akhilesh2209
+            </a>
+            <a href="mailto:wunaakhilesh2209@gmail.com" class="about-link">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              wunaakhilesh2209@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-dark">
+    <div class="container">
+      <div class="section-tag reveal">Skills</div>
+      <h2 class="section-heading reveal">Tech Stack</h2>
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <h4 class="skill-cat-title">Programming</h4>
+          <div class="skill-pills">
+            <span class="pill">JavaScript</span>
+            <span class="pill">Python</span>
+          </div>
+        </div>
+        <div class="skill-category reveal delay-1">
+          <h4 class="skill-cat-title">Frontend</h4>
+          <div class="skill-pills">
+            <span class="pill">HTML5</span>
+            <span class="pill">CSS3</span>
+            <span class="pill">React.js</span>
+          </div>
+        </div>
+        <div class="skill-category reveal delay-2">
+          <h4 class="skill-cat-title">Backend</h4>
+          <div class="skill-pills">
+            <span class="pill">Node.js</span>
+            <span class="pill">Express.js</span>
+            <span class="pill">Flask</span>
+            <span class="pill">REST APIs</span>
+          </div>
+        </div>
+        <div class="skill-category reveal delay-3">
+          <h4 class="skill-cat-title">Database &amp; Cloud</h4>
+          <div class="skill-pills">
+            <span class="pill">MongoDB</span>
+            <span class="pill">AWS</span>
+            <span class="pill">Lambda</span>
+            <span class="pill">SNS</span>
+            <span class="pill">Rekognition</span>
+          </div>
+        </div>
+        <div class="skill-category reveal">
+          <h4 class="skill-cat-title">Tools</h4>
+          <div class="skill-pills">
+            <span class="pill">Git</span>
+            <span class="pill">GitHub</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-tag reveal">Projects</div>
+      <h2 class="section-heading reveal">Selected Work</h2>
+      <div class="projects-list">
+
+       <!-- PROJECT 01: SKYBOOK — SIGNATURE PROJECT -->
+<article class="project-item reveal" data-href="https://github.com/akhilesh2209/flight-booking-dashboard">
+  <div class="project-meta">
+    <span class="project-num">01</span>
+    <div class="project-tags">
+      <span>React.js</span>
+      <span>JavaScript</span>
+      <span>Jul–Aug 2025</span>
+    </div>
+  </div>
+
+  <div class="project-body">
+    <h3 class="project-title">SkyBook — Smart Flight Dashboard</h3>
+
+    <!-- STORY NARRATIVE -->
+    <div class="project-story">
+      <div class="story-step">
+        <span class="story-label problem">Problem</span>
+        <p>Flight booking interfaces are cluttered and force users to manually compare options, increasing decision time.</p>
+      </div>
+
+      <div class="story-arrow">→</div>
+
+      <div class="story-step">
+        <span class="story-label solution">Solution</span>
+        <p>Designed a smart dashboard with real-time filtering, comparison system, and intelligent recommendations.</p>
+      </div>
+
+      <div class="story-arrow">→</div>
+
+      <div class="story-step">
+        <span class="story-label impact">Impact</span>
+        <p>Reduced decision time by 30% and code redundancy by 25%, improving usability and performance.</p>
+      </div>
+    </div>
+
+    <!-- METRICS -->
+    <div class="project-metrics">
+      <div class="metric">
+        <span class="metric-val">30%</span>
+        <span class="metric-label">Faster Decisions</span>
+      </div>
+      <div class="metric">
+        <span class="metric-val">25%</span>
+        <span class="metric-label">Less Code Redundancy</span>
+      </div>
+      <div class="metric">
+        <span class="metric-val">Compare</span>
+        <span class="metric-label">Smart Selection</span>
+      </div>
+    </div>
+
+    <!-- LINKS -->
+    <div class="project-links">
+      <a href="https://flight-booking-dashboard-ten.vercel.app/" target="_blank" class="project-link project-link-live" onclick="event.stopPropagation()">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <circle cx="12" cy="12" r="10"/>
+          <line x1="2" y1="12" x2="22" y2="12"/>
+          <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+        </svg>
+        Live Demo ↗
+      </a>
+
+      <a href="https://github.com/akhilesh2209/flight-booking-dashboard" target="_blank" class="project-link" onclick="event.stopPropagation()">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+        </svg>
+        View on GitHub
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M7 17L17 7M17 7H7M17 7v10"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="project-arrow">↗</div>
+</article>
+
+        <!-- PROJECT 02: AIRLINE RESERVATION -->
+        <article class="project-item project-featured reveal delay-1" data-href="https://github.com/akhilesh2209/airline-reservation-system">
+          <div class="project-featured-badge">
+  <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+  Signature Project
+</div>
+            <div class="project-meta">
+            <span class="project-num">02</span>
+            <div class="project-tags">
+              <span>Node.js</span>
+              <span>MongoDB</span>
+              <span>Jan–Apr 2024</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Airline Reservation System</h3>
+
+            <!-- STORY NARRATIVE -->
+            <div class="project-story">
+              <div class="story-step">
+                <span class="story-label problem">Problem</span>
+                <p>Existing reservation systems lacked a performant API layer and scalable schema for concurrent booking workflows.</p>
+              </div>
+              <div class="story-arrow">→</div>
+              <div class="story-step">
+                <span class="story-label solution">Solution</span>
+                <p>Built a full-stack system with dual Node.js + Flask backends, complete auth, validated REST APIs, and MongoDB schemas.</p>
+              </div>
+              <div class="story-arrow">→</div>
+              <div class="story-step">
+                <span class="story-label impact">Impact</span>
+                <p>Benchmarked backend performance comparison, giving engineers data-driven insight to select the optimal stack.</p>
+              </div>
+            </div>
+
+            <div class="project-metrics">
+              <div class="metric"><span class="metric-val">Dual</span><span class="metric-label">Node + Flask</span></div>
+              <div class="metric"><span class="metric-val">Full</span><span class="metric-label">Auth + Booking</span></div>
+              <div class="metric"><span class="metric-val">REST</span><span class="metric-label">Validated APIs</span></div>
+            </div>
+            <div class="project-links">
+              <a href="https://airline-reservation-system-miuf.vercel.app/" target="_blank" class="project-link project-link-live" onclick="event.stopPropagation()">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+                Live Demo ↗
+              </a>
+              <a href="https://github.com/akhilesh2209/airline-reservation-system" target="_blank" class="project-link" onclick="event.stopPropagation()">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                View on GitHub <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section section-dark">
+    <div class="container">
+      <div class="section-tag reveal">Experience</div>
+      <h2 class="section-heading reveal">Internships</h2>
+      <div class="experience-list">
+
+        <div class="exp-item reveal">
+          <div class="exp-left">
+            <div class="exp-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <div class="exp-duration">May – Jul 2025</div>
+          </div>
+          <div class="exp-body">
+            <div class="exp-header">
+              <h3 class="exp-company">Inversion Consultancy LLP</h3>
+              <span class="exp-badge">Cloud Engineering</span>
+            </div>
+            <p class="exp-role">Cloud Engineering Intern</p>
+            <ul class="exp-points">
+              <li>Engineered an automated image labeling pipeline using <strong>AWS Rekognition</strong>, processing <strong>1,000+ images</strong> with <strong>35% improved classification efficiency</strong></li>
+              <li>Built a real-time stock alert system using <strong>AWS Lambda + Amazon SNS</strong>, cutting manual monitoring effort by <strong>60%</strong></li>
+              <li>Designed event-driven architecture for scalable, low-latency trigger processing across multiple data sources</li>
+            </ul>
+            <div class="exp-metrics">
+              <div class="exp-metric"><span>1,000+</span> images processed</div>
+              <div class="exp-metric"><span>35%</span> efficiency gain</div>
+              <div class="exp-metric"><span>60%</span> monitoring cut</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="exp-item reveal delay-1">
+          <div class="exp-left">
+            <div class="exp-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="exp-duration">May – Jul 2024</div>
+          </div>
+          <div class="exp-body">
+            <div class="exp-header">
+              <h3 class="exp-company">Blackbucks Engineers</h3>
+              <span class="exp-badge">Cybersecurity</span>
+            </div>
+            <p class="exp-role">Cybersecurity Intern</p>
+            <ul class="exp-points">
+              <li>Implemented symmetric encryption in <strong>Python</strong>, securing <strong>100+ data transactions</strong> and improving protection reliability</li>
+              <li>Built a browser extension for <strong>real-time phishing URL detection</strong> using rule-based filtering and pattern recognition</li>
+              <li>Enhanced detection accuracy by <strong>30%</strong> through algorithmic optimisation of filtering logic</li>
+            </ul>
+            <div class="exp-metrics">
+              <div class="exp-metric"><span>100+</span> tx secured</div>
+              <div class="exp-metric"><span>30%</span> accuracy boost</div>
+              <div class="exp-metric"><span>Real-time</span> detection</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section">
+    <div class="container">
+      <div class="section-tag reveal">Background</div>
+      <h2 class="section-heading reveal">Education &amp; Certifications</h2>
+      <div class="edu-grid">
+        <div class="edu-card reveal">
+          <div class="edu-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <div class="edu-body">
+            <h3 class="edu-title">B.Tech — Computer Science &amp; Engineering</h3>
+            <p class="edu-inst">Anil Neerukonda Institute of Technology and Sciences</p>
+            <span class="edu-cgpa">CGPA: <strong>8.8 / 10</strong></span>
+          </div>
+        </div>
+        <div class="edu-card reveal delay-1">
+          <div class="edu-icon cert">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <div class="edu-body">
+            <h3 class="edu-title">Complete Full Stack Web Development Bootcamp</h3>
+            <p class="edu-inst">Udemy</p>
+            <span class="edu-cgpa">Certified — <strong>2024</strong></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="contact-inner reveal">
+        <div class="contact-eyebrow">Let's build something great</div>
+        <h2 class="contact-heading">Ready to<br><em>connect?</em></h2>
+        <p class="contact-sub">Actively looking for full-time opportunities. Open to freelance too.</p>
+        <a href="WUNA_AKHILESH_RESUME.pdf" download class="resume-cta">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download My Resume
+        </a>
+        <div class="contact-cards">
+          <a href="mailto:akhileshwuna22@gmail.com" class="contact-card">
+            <div class="contact-card-icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div><div class="contact-card-label">Email</div><div class="contact-card-val">akhileshwuna22@gmail.com</div></div>
+            <svg class="contact-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </a>
+          <a href="tel:+917842727605" class="contact-card">
+            <div class="contact-card-icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11 19.79 19.79 0 01.07 2.38 2 2 0 012 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7a2 2 0 011.72 2.02z"/></svg></div>
+            <div><div class="contact-card-label">Phone</div><div class="contact-card-val">+91 7842727605</div></div>
+            <svg class="contact-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/wuna-akhilesh-03349230a/" target="_blank" class="contact-card">
+            <div class="contact-card-icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></div>
+            <div><div class="contact-card-label">LinkedIn</div><div class="contact-card-val">linkedin.com/in/wuna-akhilesh</div></div>
+            <svg class="contact-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </a>
+          <a href="https://github.com/akhilesh2209" target="_blank" class="contact-card">
+            <div class="contact-card-icon"><svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></div>
+            <div><div class="contact-card-label">GitHub</div><div class="contact-card-val">github.com/akhilesh2209</div></div>
+            <svg class="contact-arrow" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <span class="logo"><span class="logo-bracket">[</span>WA<span class="logo-bracket">]</span></span>
+      <p>© 2025 Wuna Akhilesh. Built with care.</p>
+      <a href="#" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
