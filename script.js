@@ -29,7 +29,7 @@ const skipHeavy3D = prefersReducedMotion || (isMobile && isLowPower);
     alpha: true,
     powerPreference: 'high-performance'
   });
-  renderer.setPixelRatio(Math.min(window.devicePixelRatio, isMobile ? 1.5 : 2));
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
   renderer.setSize(window.innerWidth, window.innerHeight);
   renderer.setClearColor(0x000000, 0);
 
@@ -45,7 +45,7 @@ const skipHeavy3D = prefersReducedMotion || (isMobile && isLowPower);
   const C_PURPLE   = new THREE.Color(0x8b5cf6);
 
   /* ─── 1. TORUS KNOT — centerpiece (right side) ─── */
-  const knotGeo  = new THREE.TorusKnotGeometry(2.2, 0.45, 200, 32, 2, 3);
+  const knotGeo  = new THREE.TorusKnotGeometry(2.2, 0.45, 120, 20, 2, 3);
   const knotMat  = new THREE.MeshPhongMaterial({
     color: 0x0a1628,
     emissive: 0x0d2444,
@@ -87,7 +87,7 @@ const skipHeavy3D = prefersReducedMotion || (isMobile && isLowPower);
   scene.add(ring2Mesh);
 
   /* ─── 3. PARTICLE FIELD ─── */
-  const PARTICLE_COUNT = isMobile ? 600 : 1400;
+  const PARTICLE_COUNT = isMobile ? 300 : 700;
   const particlePositions = new Float32Array(PARTICLE_COUNT * 3);
   const particleSizes     = new Float32Array(PARTICLE_COUNT);
   const particleColors    = new Float32Array(PARTICLE_COUNT * 3);
@@ -131,7 +131,7 @@ const skipHeavy3D = prefersReducedMotion || (isMobile && isLowPower);
   const floatingObjects = [];
   const icoGeo = new THREE.IcosahedronGeometry(0.18, 0);
 
-  for (let i = 0; i < (isMobile ? 8 : 18); i++) {
+  for (let i = 0; i < (isMobile ? 5 : 10); i++) {
     const mat = new THREE.MeshPhongMaterial({
       color: Math.random() > 0.5 ? 0x63b3ed : 0x8b5cf6,
       emissive: Math.random() > 0.5 ? 0x1a3a5c : 0x2d1b69,
